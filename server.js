@@ -5,7 +5,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Configuración eWeLink
 const EWELINK_CONFIG = {
     region: 'ar',
     appId: 'YzfeftUVcZ6twZw1OoVKPRFYTrGEg01Q',
