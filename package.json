@@ -1,6 +1,6 @@
 {
   "name": "ewelink-controller-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Backend para control de Sonoff POWR320D via eWeLink",
   "main": "server.js",
   "scripts": {
@@ -22,3 +22,4 @@
     "node": ">=16.0.0"
   }
 }
+
