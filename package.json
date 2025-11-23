@@ -1,0 +1,48 @@
+{
+  "name": "ewelink-controller-backend",
+  "version": "1.0.0",
+  "description": "Backend para control de Sonoff POWR320D via eWeLink",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["ewelink", "sonoff", "smart-plug"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^3.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+```
+
+---
+
+## 📋 **Cambios importantes:**
+
+### **En package.json:**
+- ✅ `"main": "server.js"` (era index.js)
+- ✅ `"start": "node server.js"` (era node index.js)
+
+---
+
+## 🎯 **Pasos:**
+
+1. **Edita o crea** el archivo `server.js` en GitHub
+2. **Edita** el archivo `package.json` para cambiar las referencias
+3. **Guarda** ambos (Commit changes)
+4. Render detectará los cambios y hará **deploy automático**
+5. Espera 1-2 minutos
+6. Verifica en Events si el deploy fue exitoso
+
+---
+
+## ✅ **Tu repositorio final debe tener:**
+```
+📁 server.js (repositorio)
+   📄 server.js      ← El código del backend
+   📄 package.json   ← Configuración actualizada
