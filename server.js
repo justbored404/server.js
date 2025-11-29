@@ -9,9 +9,9 @@ const EWELINK_CONFIG = {
     region: 'ar',
     appId: 'YzfeftUVcZ6twZw1OoVKPRFYTrGEg01Q',
     appSecret: '4G91qSoboqYO4Y0XJ0LPPKIsq8nBzKkFmjUO5K8BYOo',
-    deviceId: '1000abcdef',
+    deviceId: '1001db2364',
     email: 'lennonporte15@gmail.com',
-    password: 'TU_PASSWORD_AQUI'
+    password: 'Lennon25'
 };
 
 let accessToken = null;
